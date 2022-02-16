@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Tofu Express 👋</h1>
+<h1 align="center">Welcome to Pet Peeves 👨🏿‍💻</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" target="_blank">
@@ -11,23 +11,11 @@
 
 > A top pet peeves blog application
 
-
-## Wireframes
-### Desktop
-
-
 ## Install
 
 ```sh
 npm install 
 ```
-
-## Component Hierarchy
-
-![Updated CH](https://user-images.githubusercontent.com/88213280/139736129-b46fef68-d258-4a73-b7d3-cf0e51f40546.jpg)
-## ERD (Entity Relationship Diagram)
-
-![EDR](https://user-images.githubusercontent.com/88213280/139736088-40abdb6a-69e4-4a98-9be4-6deb7ad8369f.jpg)
 
 ## Author
 
@@ -47,5 +35,3 @@ Give a ⭐️ if this project helped you!
 Copyright © 2022 [Abdifatah Osman](https://github.com/AbdifatahOsman2).<br />
 This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_# TruckerApplication
