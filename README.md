@@ -1,65 +1,51 @@
-# Peeved
-A top pet peeves blog application
+<h1 align="center">Welcome to Tofu Express 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/Abdifatah Osman" target="_blank">
+    <img alt="Twitter: Abdifatah Osman" src="https://img.shields.io/twitter/follow/omarosman258.svg?style=social" />
+  </a>
+</p>
 
-## Members
-- Rick Hertel   
-- John Tran
-- Abdi Osman
+> A top pet peeves blog application
 
-## Group Expectations
-<img src="./images/group-expectations.png" alt="Group expectations" />
-<img src="./images/group-expectations2.png" alt="Group expectations" />
-
-
-## MVP Goals
-
-- Create MERN application and deploy via Heroku and Netlify
-- Application will have full front-end and back-end CRUD functionality
-- Application will have collections for both User and Posts
-- Application will have JWT authorization, 
-- Render application in browser
-- The Peeved repo has a README.md that documents the project in detail
-
-## Post-MVP Goals
-- Allow users to make comments on any post if they are logged in
-- Add Likes
-- Hamburger menu
-- Add dropdown/pop-up login on hover/click etc.
-- Additional styling, animations
-- Posts Search
-
-## Database Schemas
-```
-userSchema
-  {
-    username: { type: String, required: true, unique: true },
-    email: { type: String, required: true },
-    password_digest: { type: String, required: true }
-  }
-
-postSchema
-  {
-    title: { type: String, required: true },
-    content: { type: String, required: true },
-    userId: { type: Schema.Types.ObjectId, ref: "User" }
-  }
-```
-
-## MERN Chart
-<img src="./MERN-chart.jpg" alt="MERN chart"/>
 
 ## Wireframes
-<img src="./images/home.jpg" alt="wireframe">
-<img src="./images/register.jpg" alt="wireframe">
-<img src="./images/logged-in-page.jpg" alt="wireframe">
-<img src="./images/new-post.jpg" alt="wireframe">
-<img src="./images/edit.jpg" alt="wireframe">
-<img src="./images/home.rsp.jpg" alt="wireframe">
-<img src="./images/register.rsp.jpg" alt="wireframe">
-<img src="./images/logged-in-page.rsp.jpg" alt="wireframe">
-<img src="./images/new-post.rsp.jpg" alt="wireframe">
-<img src="./images/edit.rsp.jpg" alt="wireframe">
+### Desktop
+
+
+## Install
+
+```sh
+npm install 
+```
 
 ## Component Hierarchy
-<img src="./images/component-hierarchy.png" alt="component hierarchy" />
-# Peeved2
+
+![Updated CH](https://user-images.githubusercontent.com/88213280/139736129-b46fef68-d258-4a73-b7d3-cf0e51f40546.jpg)
+## ERD (Entity Relationship Diagram)
+
+![EDR](https://user-images.githubusercontent.com/88213280/139736088-40abdb6a-69e4-4a98-9be4-6deb7ad8369f.jpg)
+
+## Author
+
+👤 **Abdifatah Osman**
+
+* Website: (https://abdifatahosman.com)
+* Twitter: [@Abdifatah Osman](https://twitter.com/omarosman258)
+* Github: [@AbdifatahOsman2](https://github.com/AbdifatahOsman2)
+* LinkedIn: [@Abdifatah Osman](https://linkedin.com/in/abdifatahothman)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [Abdifatah Osman](https://github.com/AbdifatahOsman2).<br />
+This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_# TruckerApplication
