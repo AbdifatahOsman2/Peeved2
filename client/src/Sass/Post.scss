@@ -1,0 +1,40 @@
+article{
+    background-color: rgb(111, 189, 22);
+    width: 500px;
+    height: fit-content;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    margin: 10px;
+    h1{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    h2{
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        position: relative;
+        margin: 5px;
+    }
+    a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #1b7ccc;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    a:hover:after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}

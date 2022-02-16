@@ -1,0 +1,25 @@
+.post-stop{
+    background-color: white;
+    margin: 200px auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 5px 3px 8px rgb(0 0 0 / 0.3);
+    @media only screen and (max-width: 480px) {
+        margin: 150px auto;
+        height: 400px;
+        width: 300px;
+    }
+    h3{
+        margin: 10px;
+        font-size: 40px;
+        @media only screen and (max-width: 480px) {
+            font-size: 30px;
+        }
+    }
+
+}

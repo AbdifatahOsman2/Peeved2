@@ -1,0 +1,30 @@
+#logo-text {
+  font-family: "Audiowide", cursive;
+  font-size: 25px;
+  margin: -7px 920px 0px 0px;
+}
+#join {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: "Audiowide", cursive;
+}
+
+@media screen and (max-width: 480px) {
+  #logo-text {
+    font-family: "Audiowide", cursive;
+    font-size: 20px;
+    margin: -7px 0px 0px 0px;
+  }
+  #join {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px;
+
+    cursor: pointer;
+    font-family: "Audiowide", cursive;
+    font-size: 17px;
+  }
+}
