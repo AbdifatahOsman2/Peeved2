@@ -25,13 +25,3 @@ npm install
 * Twitter: [@Abdifatah Osman](https://twitter.com/omarosman258)
 * Github: [@AbdifatahOsman2](https://github.com/AbdifatahOsman2)
 * LinkedIn: [@Abdifatah Osman](https://linkedin.com/in/abdifatahothman)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2022 [Abdifatah Osman](https://github.com/AbdifatahOsman2).<br />
-This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
-
